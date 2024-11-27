@@ -1,0 +1,15 @@
+[package]
+name = "re9k"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.15.0", features = ["autodiff", "dataset", "metrics", "tch", "train", "tui"] }
+clap = { version = "4.5.21", features = ["cargo", "derive", "std"] }
+csv = "1.3.1"
+petgraph = "0.6.5"
+r2pipe = "0.7.0"
+rand = "0.8.5"
+regex = "1.11.1"
+serde = "1.0.215"
+serde_json = "1.0.133"

@@ -1,0 +1,21 @@
+{
+  "optimizer": {
+    "weight_decay": null,
+    "grad_clipping": null,
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "epsilon": 0.00001
+  },
+  "model_conf": {
+    "vocab_size": 718,
+    "embedding_dim": 256,
+    "lstm_dim": 128,
+    "batch_size": 64
+  },
+  "vocab_size": null,
+  "num_epochs": 10,
+  "batch_size": 64,
+  "sequence_length": 64,
+  "num_workers": 1,
+  "learning_rate": 0.001
+}
